@@ -1,0 +1,701 @@
+8/10/2018 10:22:31 AM: Object reference not set to an instance of an object.
+   at Strat_Assistant.MainForm.DisableBlink(Object sender, EventArgs e) in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\MainForm.cs:line 77
+4/21/2020 7:53:00 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at LinqToDB.Data.DataConnection.get_Connection() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 883
+   at LinqToDB.Data.DataConnection.CreateCommand() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 979
+   at LinqToDB.Data.DataConnection.get_Command() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 970
+   at LinqToDB.DataProvider.DataProviderBase.InitCommand(DataConnection dataConnection, CommandType commandType, String commandText, DataParameter[] parameters) in C:\projects\linq2db\Source\LinqToDB\DataProvider\DataProviderBase.cs:line 104
+   at LinqToDB.Data.DataConnection.InitCommand(CommandType commandType, String sql, DataParameter[] parameters, List`1 queryHints) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 947
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 423
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 188
+4/21/2020 7:53:12 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:53:14 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:53:14 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:53:14 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:53:15 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:53:15 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:53:16 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:54:29 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at LinqToDB.Data.DataConnection.get_Connection() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 883
+   at LinqToDB.Data.DataConnection.CreateCommand() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 979
+   at LinqToDB.Data.DataConnection.get_Command() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 970
+   at LinqToDB.DataProvider.DataProviderBase.InitCommand(DataConnection dataConnection, CommandType commandType, String commandText, DataParameter[] parameters) in C:\projects\linq2db\Source\LinqToDB\DataProvider\DataProviderBase.cs:line 104
+   at LinqToDB.Data.DataConnection.InitCommand(CommandType commandType, String sql, DataParameter[] parameters, List`1 queryHints) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 947
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 423
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 188
+4/21/2020 7:54:32 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'%' to database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:55:20 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Unknown database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at LinqToDB.Data.DataConnection.get_Connection() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 883
+   at LinqToDB.Data.DataConnection.CreateCommand() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 979
+   at LinqToDB.Data.DataConnection.get_Command() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 970
+   at LinqToDB.DataProvider.DataProviderBase.InitCommand(DataConnection dataConnection, CommandType commandType, String commandText, DataParameter[] parameters) in C:\projects\linq2db\Source\LinqToDB\DataProvider\DataProviderBase.cs:line 104
+   at LinqToDB.Data.DataConnection.InitCommand(CommandType commandType, String sql, DataParameter[] parameters, List`1 queryHints) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 947
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 423
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 188
+4/21/2020 7:55:27 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Unknown database 'strats'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 109
+4/21/2020 7:55:42 PM: Table 'strat.strats' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at LinqToDB.Data.DataConnection.ExecuteReader(CommandBehavior commandBehavior) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 1117
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 429
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 188
+4/22/2020 4:05:37 PM: Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at LinqToDB.Data.DataConnection.get_Connection() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 883
+   at LinqToDB.Data.DataConnection.CreateCommand() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 979
+   at LinqToDB.Data.DataConnection.get_Command() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 970
+   at LinqToDB.DataProvider.DataProviderBase.InitCommand(DataConnection dataConnection, CommandType commandType, String commandText, DataParameter[] parameters) in C:\projects\linq2db\Source\LinqToDB\DataProvider\DataProviderBase.cs:line 104
+   at LinqToDB.Data.DataConnection.InitCommand(CommandType commandType, String sql, DataParameter[] parameters, List`1 queryHints) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 947
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 423
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 188
+4/23/2020 12:09:05 PM: Table 'strat.strats' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at LinqToDB.Data.DataConnection.ExecuteReader(CommandBehavior commandBehavior) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 1117
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 429
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 192
+4/23/2020 12:23:34 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'10.1.94.%' to database 'strat'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at LinqToDB.Data.DataConnection.get_Connection() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 883
+   at LinqToDB.Data.DataConnection.CreateCommand() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 979
+   at LinqToDB.Data.DataConnection.get_Command() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 970
+   at LinqToDB.DataProvider.DataProviderBase.InitCommand(DataConnection dataConnection, CommandType commandType, String commandText, DataParameter[] parameters) in C:\projects\linq2db\Source\LinqToDB\DataProvider\DataProviderBase.cs:line 104
+   at LinqToDB.Data.DataConnection.InitCommand(CommandType commandType, String sql, DataParameter[] parameters, List`1 queryHints) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 947
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 423
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 192
+4/23/2020 12:23:47 PM: Authentication to host '10.1.94.169' for user 'DabSquad' using method 'mysql_native_password' failed with message: Access denied for user 'DabSquad'@'10.1.94.%' to database 'strat'
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.HandleAuthChange(MySqlPacket packet)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<EnsureConnectionAsync>d__0.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 113
+4/23/2020 12:24:11 PM: SELECT command denied to user 'DabSquad'@'ALEXANDER-PC' for table 'strats'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at LinqToDB.Data.DataConnection.ExecuteReader(CommandBehavior commandBehavior) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 1117
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 429
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 192
+4/23/2020 12:24:20 PM: INSERT command denied to user 'DabSquad'@'ALEXANDER-PC' for table 'errorlog'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<ExecuteNonQueryAsync>d__1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 501
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 113
+4/23/2020 12:24:20 PM: INSERT command denied to user 'DabSquad'@'ALEXANDER-PC' for table 'errorlog'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<ExecuteNonQueryAsync>d__1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 501
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 113
+4/23/2020 12:24:21 PM: INSERT command denied to user 'DabSquad'@'ALEXANDER-PC' for table 'errorlog'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<ExecuteNonQueryAsync>d__1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 501
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 113
+4/23/2020 12:24:22 PM: INSERT command denied to user 'DabSquad'@'ALEXANDER-PC' for table 'errorlog'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<ExecuteNonQueryAsync>d__1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 501
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Insert`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Insert.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<ErrorLogInsert>d__5.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 113
+4/23/2020 12:24:31 PM: SELECT command denied to user 'DabSquad'@'ALEXANDER-PC' for table 'strats'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at LinqToDB.Data.DataConnection.ExecuteReader(CommandBehavior commandBehavior) in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.cs:line 1117
+   at LinqToDB.Data.DataConnection.QueryRunner.ExecuteReader() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 429
+   at LinqToDB.Linq.QueryRunner.<ExecuteQuery>d__9`1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 339
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Strat_Assistant.DatabaseFunctions.GetMetadata() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 192
+4/23/2020 12:27:04 PM: UPDATE command denied to user 'DabSquad'@'ALEXANDER-PC' for table 'strats'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.<ExecuteNonQueryAsync>d__1.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.Async.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Data.DataConnection.QueryRunner.<ExecuteNonQueryAsync>d__28.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Data\DataConnection.QueryRunner.cs:line 501
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.<NonQueryQueryAsync>d__27.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.cs:line 641
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at LinqToDB.Linq.QueryRunner.Update`1.<QueryAsync>d__3.MoveNext() in C:\projects\linq2db\Source\LinqToDB\Linq\QueryRunner.Update.cs:line 99
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Strat_Assistant.DatabaseFunctions.<UpdateStrats>d__6.MoveNext() in C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\Database\DatabaseFunctions.cs:line 143

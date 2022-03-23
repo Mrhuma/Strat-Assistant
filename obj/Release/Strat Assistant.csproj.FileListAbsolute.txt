@@ -1,0 +1,36 @@
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\DeltaCompressionDotNet.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\DeltaCompressionDotNet.MsDelta.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\DeltaCompressionDotNet.PatchApi.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Google.Protobuf.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\linq2db.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Mono.Cecil.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Mono.Cecil.Mdb.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Mono.Cecil.Pdb.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Mono.Cecil.Rocks.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\MySql.Data.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Newtonsoft.Json.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\NuGet.Squirrel.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\SharpCompress.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Splat.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Squirrel.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Google.Protobuf.xml
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\linq2db.pdb
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\linq2db.xml
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\MySql.Data.xml
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Newtonsoft.Json.xml
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\NuGet.Squirrel.pdb
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Splat.pdb
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Squirrel.pdb
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\Strat_Assistant.MainForm.resources
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\Strat_Assistant.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\Strat Assistant.csproj.GenerateResource.Cache
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\StratAssistant.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\StratAssistant.exe
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\StratAssistant.pdb
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\StratAssistant.exe
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\StratAssistant.pdb
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Imgur.API.dll
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\bin\Release\Imgur.API.xml
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\Strat_Assistant.WaitForm.resources
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\Strat Assistant.csprojAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2017\Projects\Strat Assistant\Strat Assistant\obj\Release\Strat Assistant.csproj.CopyComplete
